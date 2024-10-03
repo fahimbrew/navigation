@@ -1,0 +1,75 @@
+body {
+    /* background-color: cadetblue; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+li {
+    /* list-style: none; */
+    text-align: center;
+    border-bottom: 1px solid black;
+    /* margin: 0; */
+    /* padding: 1em 0; */
+
+
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.select {
+    background-color: rgb(216, 92, 164);
+}
+
+li a {
+    text-decoration: none;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    display: block;
+    padding: 10px 16px;
+    color: black;
+    /* font-family: sans-serif; */
+    font-style: italic;
+}
+
+ul {
+    background-color: rgb(130, 65, 65);
+    width: 15%;
+    /* text-align: center; */
+    border: 1px solid black;
+    position: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+
+li:hover {
+    color: aliceblue;
+    background-color: antiquewhite;
+}
+
+.essay {
+    margin-left: 16%;
+}
+
+.essay h1 {
+    color: rgb(184, 88, 109);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    /* text-align: center; */
+    text-decoration: overline;
+}
+
+.essay p {
+    color: burlywood;
+    font-weight: 800;
+    text-decoration: wavy;
+    font-family: sans-serif;
+}
